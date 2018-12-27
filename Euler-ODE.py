@@ -7,7 +7,7 @@ def euler(initial, target, span):
 
     for i in range(n):
         y += span * df(initial[0] + span * i, y)
-        print("y({0}): {1}".format(initial[0] + span * i, y))
+        #print("y({0}): {1}".format(initial[0] + span * i, y))
 
     return y
 
